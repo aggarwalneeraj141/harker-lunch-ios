@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68D573E41E687C9B003EB072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D573E31E687C9B003EB072 /* AppDelegate.swift */; };
+		68D573E61E687C9B003EB072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D573E51E687C9B003EB072 /* ViewController.swift */; };
+		68D573E91E687C9B003EB072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D573E71E687C9B003EB072 /* Main.storyboard */; };
+		68D573EB1E687C9B003EB072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D573EA1E687C9B003EB072 /* Assets.xcassets */; };
+		68D573EE1E687C9B003EB072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D573EC1E687C9B003EB072 /* LaunchScreen.storyboard */; };
+		68D573F91E687C9B003EB072 /* harker_lunch_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D573F81E687C9B003EB072 /* harker_lunch_iosTests.swift */; };
+		68D574041E687C9B003EB072 /* harker_lunch_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D574031E687C9B003EB072 /* harker_lunch_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68D573F51E687C9B003EB072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68D573D81E687C9A003EB072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D573DF1E687C9A003EB072;
+			remoteInfo = "harker-lunch-ios";
+		};
+		68D574001E687C9B003EB072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68D573D81E687C9A003EB072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D573DF1E687C9A003EB072;
+			remoteInfo = "harker-lunch-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68D573E01E687C9B003EB072 /* harker-lunch-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "harker-lunch-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D573E31E687C9B003EB072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68D573E51E687C9B003EB072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68D573E81E687C9B003EB072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68D573EA1E687C9B003EB072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68D573ED1E687C9B003EB072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68D573EF1E687C9B003EB072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D573F41E687C9B003EB072 /* harker-lunch-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "harker-lunch-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D573F81E687C9B003EB072 /* harker_lunch_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harker_lunch_iosTests.swift; sourceTree = "<group>"; };
+		68D573FA1E687C9B003EB072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D573FF1E687C9B003EB072 /* harker-lunch-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "harker-lunch-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D574031E687C9B003EB072 /* harker_lunch_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harker_lunch_iosUITests.swift; sourceTree = "<group>"; };
+		68D574051E687C9B003EB072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D573DD1E687C9A003EB072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D573F11E687C9B003EB072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D573FC1E687C9B003EB072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D573D71E687C9A003EB072 = {
+			isa = PBXGroup;
+			children = (
+				68D573E21E687C9B003EB072 /* harker-lunch-ios */,
+				68D573F71E687C9B003EB072 /* harker-lunch-iosTests */,
+				68D574021E687C9B003EB072 /* harker-lunch-iosUITests */,
+				68D573E11E687C9B003EB072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68D573E11E687C9B003EB072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68D573E01E687C9B003EB072 /* harker-lunch-ios.app */,
+				68D573F41E687C9B003EB072 /* harker-lunch-iosTests.xctest */,
+				68D573FF1E687C9B003EB072 /* harker-lunch-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D573E21E687C9B003EB072 /* harker-lunch-ios */ = {
+			isa = PBXGroup;
+			children = (
+				68D573E31E687C9B003EB072 /* AppDelegate.swift */,
+				68D573E51E687C9B003EB072 /* ViewController.swift */,
+				68D573E71E687C9B003EB072 /* Main.storyboard */,
+				68D573EA1E687C9B003EB072 /* Assets.xcassets */,
+				68D573EC1E687C9B003EB072 /* LaunchScreen.storyboard */,
+				68D573EF1E687C9B003EB072 /* Info.plist */,
+			);
+			path = "harker-lunch-ios";
+			sourceTree = "<group>";
+		};
+		68D573F71E687C9B003EB072 /* harker-lunch-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				68D573F81E687C9B003EB072 /* harker_lunch_iosTests.swift */,
+				68D573FA1E687C9B003EB072 /* Info.plist */,
+			);
+			path = "harker-lunch-iosTests";
+			sourceTree = "<group>";
+		};
+		68D574021E687C9B003EB072 /* harker-lunch-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68D574031E687C9B003EB072 /* harker_lunch_iosUITests.swift */,
+				68D574051E687C9B003EB072 /* Info.plist */,
+			);
+			path = "harker-lunch-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68D573DF1E687C9A003EB072 /* harker-lunch-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D574081E687C9B003EB072 /* Build configuration list for PBXNativeTarget "harker-lunch-ios" */;
+			buildPhases = (
+				68D573DC1E687C9A003EB072 /* Sources */,
+				68D573DD1E687C9A003EB072 /* Frameworks */,
+				68D573DE1E687C9A003EB072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "harker-lunch-ios";
+			productName = "harker-lunch-ios";
+			productReference = 68D573E01E687C9B003EB072 /* harker-lunch-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68D573F31E687C9B003EB072 /* harker-lunch-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D5740B1E687C9B003EB072 /* Build configuration list for PBXNativeTarget "harker-lunch-iosTests" */;
+			buildPhases = (
+				68D573F01E687C9B003EB072 /* Sources */,
+				68D573F11E687C9B003EB072 /* Frameworks */,
+				68D573F21E687C9B003EB072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68D573F61E687C9B003EB072 /* PBXTargetDependency */,
+			);
+			name = "harker-lunch-iosTests";
+			productName = "harker-lunch-iosTests";
+			productReference = 68D573F41E687C9B003EB072 /* harker-lunch-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68D573FE1E687C9B003EB072 /* harker-lunch-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D5740E1E687C9B003EB072 /* Build configuration list for PBXNativeTarget "harker-lunch-iosUITests" */;
+			buildPhases = (
+				68D573FB1E687C9B003EB072 /* Sources */,
+				68D573FC1E687C9B003EB072 /* Frameworks */,
+				68D573FD1E687C9B003EB072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68D574011E687C9B003EB072 /* PBXTargetDependency */,
+			);
+			name = "harker-lunch-iosUITests";
+			productName = "harker-lunch-iosUITests";
+			productReference = 68D573FF1E687C9B003EB072 /* harker-lunch-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68D573D81E687C9A003EB072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Neeraj Aggarwal";
+				TargetAttributes = {
+					68D573DF1E687C9A003EB072 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AUWTCTGWF5;
+						ProvisioningStyle = Automatic;
+					};
+					68D573F31E687C9B003EB072 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AUWTCTGWF5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68D573DF1E687C9A003EB072;
+					};
+					68D573FE1E687C9B003EB072 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AUWTCTGWF5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68D573DF1E687C9A003EB072;
+					};
+				};
+			};
+			buildConfigurationList = 68D573DB1E687C9A003EB072 /* Build configuration list for PBXProject "harker-lunch-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68D573D71E687C9A003EB072;
+			productRefGroup = 68D573E11E687C9B003EB072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68D573DF1E687C9A003EB072 /* harker-lunch-ios */,
+				68D573F31E687C9B003EB072 /* harker-lunch-iosTests */,
+				68D573FE1E687C9B003EB072 /* harker-lunch-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D573DE1E687C9A003EB072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D573EE1E687C9B003EB072 /* LaunchScreen.storyboard in Resources */,
+				68D573EB1E687C9B003EB072 /* Assets.xcassets in Resources */,
+				68D573E91E687C9B003EB072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D573F21E687C9B003EB072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D573FD1E687C9B003EB072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68D573DC1E687C9A003EB072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D573E61E687C9B003EB072 /* ViewController.swift in Sources */,
+				68D573E41E687C9B003EB072 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D573F01E687C9B003EB072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D573F91E687C9B003EB072 /* harker_lunch_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D573FB1E687C9B003EB072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D574041E687C9B003EB072 /* harker_lunch_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68D573F61E687C9B003EB072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68D573DF1E687C9A003EB072 /* harker-lunch-ios */;
+			targetProxy = 68D573F51E687C9B003EB072 /* PBXContainerItemProxy */;
+		};
+		68D574011E687C9B003EB072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68D573DF1E687C9A003EB072 /* harker-lunch-ios */;
+			targetProxy = 68D574001E687C9B003EB072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68D573E71E687C9B003EB072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D573E81E687C9B003EB072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68D573EC1E687C9B003EB072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D573ED1E687C9B003EB072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68D574061E687C9B003EB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68D574071E687C9B003EB072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68D574091E687C9B003EB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUWTCTGWF5;
+				INFOPLIST_FILE = "harker-lunch-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aggarwalneeraj.harker-lunch-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68D5740A1E687C9B003EB072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUWTCTGWF5;
+				INFOPLIST_FILE = "harker-lunch-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aggarwalneeraj.harker-lunch-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68D5740C1E687C9B003EB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AUWTCTGWF5;
+				INFOPLIST_FILE = "harker-lunch-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aggarwalneeraj.harker-lunch-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harker-lunch-ios.app/harker-lunch-ios";
+			};
+			name = Debug;
+		};
+		68D5740D1E687C9B003EB072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AUWTCTGWF5;
+				INFOPLIST_FILE = "harker-lunch-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aggarwalneeraj.harker-lunch-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harker-lunch-ios.app/harker-lunch-ios";
+			};
+			name = Release;
+		};
+		68D5740F1E687C9B003EB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AUWTCTGWF5;
+				INFOPLIST_FILE = "harker-lunch-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aggarwalneeraj.harker-lunch-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "harker-lunch-ios";
+			};
+			name = Debug;
+		};
+		68D574101E687C9B003EB072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AUWTCTGWF5;
+				INFOPLIST_FILE = "harker-lunch-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aggarwalneeraj.harker-lunch-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "harker-lunch-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68D573DB1E687C9A003EB072 /* Build configuration list for PBXProject "harker-lunch-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D574061E687C9B003EB072 /* Debug */,
+				68D574071E687C9B003EB072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D574081E687C9B003EB072 /* Build configuration list for PBXNativeTarget "harker-lunch-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D574091E687C9B003EB072 /* Debug */,
+				68D5740A1E687C9B003EB072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68D5740B1E687C9B003EB072 /* Build configuration list for PBXNativeTarget "harker-lunch-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D5740C1E687C9B003EB072 /* Debug */,
+				68D5740D1E687C9B003EB072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68D5740E1E687C9B003EB072 /* Build configuration list for PBXNativeTarget "harker-lunch-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D5740F1E687C9B003EB072 /* Debug */,
+				68D574101E687C9B003EB072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68D573D81E687C9A003EB072 /* Project object */;
+}
