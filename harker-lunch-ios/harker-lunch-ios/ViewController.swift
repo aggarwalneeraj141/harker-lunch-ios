@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         self.site.frame = self.view.bounds
         self.site.scalesPageToFit = true
         //load page
-        let url = NSURL (string: "http://aggarwalneeraj141.github.io/harker-lunch/");
+        let url = NSURL (string: "http://tiny.cc/lunchmenu");
         let requestObj = NSURLRequest(url: url! as URL);
         site.loadRequest(requestObj as URLRequest);
     }
